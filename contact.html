@@ -3,21 +3,24 @@
 
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>Contact BQ</title>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
 
-  <p>email:wandouxyy@gmail.com</p>
+  <p>Email:wandouxyy@gmail.com</p>
 
-  <form>
-    First name:<br>
-    <input type="text" name="firstname">
-    <br>
-    Last name:<br>
-    <input type="text" name="lastname">
-    <br><br>
-    <input type="submit" value="Submit">
+  <form action="mailto:wandouxyy@gmail.com" enctype="text/plain">
+    <label>First Name:</label>
+    <input type="text" name="firstname"><br>
+    <label>Last Name:</label>
+    <input type="text" name="lastname"><br>
+    <label>Your Email: </label>
+    <input type="email" name="Email" ><br>
+    <label>Your messages:</label><br>
+    <textarea name="yourmessage" rows="10" cols="50"></textarea><br>
+    <input type="submit" name="" >
   </form>
 
 </body>
